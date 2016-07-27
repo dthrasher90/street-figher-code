@@ -25,23 +25,40 @@ body {
   height: 494px;
 }
 
-.ryu-ready, .ryu-throwing {
-  display: none;
+.ryu-ready, .ryu-throwing, {
+  display: show;
+}
 
 } 
 
 .ryu-ready {
-  background-image: url('C:\Users\dthrasher90\Desktop\streetfighter-starter-master\images\ryu-ready-position.gif');
+  background-image: url('http://res.cloudinary.com/dzmtkw5rx/image/upload/v1469639632/ryu-ready-position_up3ekd.gif');
 }
 
 .ryu-still {
-  background-image: url('C:\Users\dthrasher90\Desktop\streetfighter-starter-master\images\ryu-standing-still.png');
+  background-image: url('http://res.cloudinary.com/dzmtkw5rx/image/upload/v1469487256/ryu-standing-still_zg9zfe.png');
 }
 
 .ryu-throwing {
-  background-image: url('C:\Users\dthrasher90\Desktop\streetfighter-starter-master\images\ryu-throwing-hadouken.png');
+  background-image: url('http://res.cloudinary.com/dzmtkw5rx/image/upload/v1469487259/ryu-throwing-hadouken_y9asyk.png');
 }
+
+.hadouken {
+  background-image: url('http://res.cloudinary.com/dzmtkw5rx/image/upload/v1469487262/hadouken_xaur59.gif');
+  width: 156px; 
+  height: 300px;
+  display: none;
+  float: left;
+  position: absolute;
+  z-index: 10;
+  top:175px;
+  left: 600px;
 
 .hadouken, .ryu-ready, .ryu-still, .ryu-throwing {
   background-repeat: no-repeat;
 }
+
+* {
+  outline: red 1px solid;
+}
+
